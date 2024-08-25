@@ -1,0 +1,146 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #004d40; /* Dark teal background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Navigation */
+  .nav {
+    background-color: #00796b; /* Teal color */
+    padding: 10px;
+  }
+  
+  .nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content */
+  .main-content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Forms */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  form button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #00796b; /* Teal color */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #004d40; /* Dark teal color */
+  }
+  
+  /* Document Manager */
+  .document-manager-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .document-manager-list li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .document-manager-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .document-manager-list button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .document-manager-list button.view-btn {
+    background-color: #00796b; /* Teal color */
+    color: white;
+  }
+  
+  .document-manager-list button.edit-btn {
+    background-color: #ffa000; /* Amber color */
+    color: white;
+  }
+  
+  .document-manager-list button.delete-btn {
+    background-color: #d32f2f; /* Red color */
+    color: white;
+  }
+  
+  .document-manager-list button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #004d40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer .social-icons a {
+    margin: 0 10px;
+    color: white;
+  }
+  

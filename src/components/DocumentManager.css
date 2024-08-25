@@ -1,0 +1,110 @@
+.document-manager {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .document-manager h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #4a3a1d; /* Dark brown color */
+  }
+  
+  .document-form {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .document-form input[type="text"],
+  .document-form input[type="file"],
+  .document-form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .document-form input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .document-form button {
+    background-color: #a0522d; /* Brown color */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .document-form button:hover {
+    background-color: #8b4513; /* Darker brown color */
+  }
+  
+  .document-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .document-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .document-details {
+    flex: 1;
+  }
+  
+  .document-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .document-actions button {
+    margin-left: 5px;
+    background-color: #d2b48c; /* Light orange color */
+    color: #4a3a1d; /* Dark brown color */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .document-actions button:hover {
+    background-color: #deb887; /* Slightly darker light orange */
+  }
+  
+  .view-document {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .view-document h3 {
+    margin-bottom: 10px;
+    color: #4a3a1d; /* Dark brown color */
+  }
+  
+  .view-document p {
+    margin-bottom: 15px;
+  }
+  
+  .view-document a {
+    color: #a0522d; /* Brown color */
+    text-decoration: none;
+  }
+  
+  .view-document a:hover {
+    text-decoration: underline;
+  }
+  
